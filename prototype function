@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+
+void cetakpesan ();
+int tambah ( int a, int b );
+
+int main () {
+	cetakpesan();
+	cout <<"tambah(7'5)  = "<<endl;
+	
+	return 0;
+}
+
+void cetakpesan (){
+	cout <<"Belajar C++"<<endl;
+}
+int tambah (int a, int b){
+	return a+b;
+}
